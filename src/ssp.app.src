@@ -1,11 +1,12 @@
 {application, ssp,
  [
-  {description, ""},
+  {description, "RTB Server for SSP side"},
   {vsn, "1"},
   {registered, []},
   {applications, [
                   kernel,
-                  stdlib
+                  stdlib,
+                  cowboy
                  ]},
   {mod, { ssp_app, []}},
   {env, []}
