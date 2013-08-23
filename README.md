@@ -9,9 +9,9 @@ Implement erlang RTB Server.
 
 # Build
 
-    rebar get-deps
-    rebar compile
+    $ rebar get-deps
+    $ rebar compile
 
 # Run
 
-    start.sh
+    $ start.sh
