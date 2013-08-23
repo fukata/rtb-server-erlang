@@ -15,7 +15,7 @@ start(_StartType, _StartArgs) ->
 			{"/ad", ad_handler, []}
 		]}
 	]),
-	{ok, _} = cowboy:start_http(http, 100, [{port, 5000}], [
+	{ok, _} = cowboy:start_http(http, 100, [{port, 8080}], [
 		{env, [{dispatch, Dispatch}]}
 	]),
 	ssp_sup:start_link().
